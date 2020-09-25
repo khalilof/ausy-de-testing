@@ -1,16 +1,9 @@
-<div class="main">
+<header>
+    <a href="/">Home</a>
+    |
+    <a href="/bmi-calculator">BMI Calculator</a>
+</header>
 
-    <h1 class="title">{{appTitle}}</h1>
-    <div class="my-form-layout">
-        <div class="field-group input-sample">
-            <input [(ngModel)]="appTitle">
-            <span>{{appTitle}}</span>
-        </div>
+<router-outlet>
 
-        <div class="field-group">
-            <button (click)="clickButton()">Click button</button>
-            <span>{{buttonClicked}}</span>
-        </div>
-    </div>
-
-</div>
+</router-outlet>

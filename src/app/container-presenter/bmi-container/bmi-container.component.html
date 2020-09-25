@@ -1,0 +1,14 @@
+<div class="container">
+
+    <app-bmi-ui (calculateEvent)="calculateEventHandler($event)" ></app-bmi-ui>
+
+    <br>
+    <h3><u>Your BMI results: </u></h3>
+
+    <br>
+    <b>{{bmiBrainService.getResults()}}</b>
+
+    <br>
+    {{bmiBrainService.getInterpretation()}}
+
+</div>

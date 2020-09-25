@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  appTitle = 'ausy-de-testing';
-  buttonClicked = false;
 
-  clickButton(): void {
-    this.buttonClicked = !this.buttonClicked;
-    console.log('this button was clicked');
-  }
 }

@@ -1,0 +1,16 @@
+<div class="main">
+
+    <h1 class="title">{{appTitle}}</h1>
+    <div class="my-form-layout">
+        <div class="field-group input-sample">
+            <input [(ngModel)]="appTitle">
+            <span>{{appTitle}}</span>
+        </div>
+
+        <div class="field-group">
+            <button (click)="clickButton()">Click button</button>
+            <span>{{buttonClicked}}</span>
+        </div>
+    </div>
+
+</div>
