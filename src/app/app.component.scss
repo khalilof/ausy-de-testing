@@ -1,0 +1,31 @@
+
+.main {
+  width: 40vw;
+  left: 30vw;
+  height: 70vh;
+  position: fixed;
+  border: cornflowerblue 2px solid;
+  display: inline-block;
+  place-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+
+.my-form-layout {
+  .field-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    border-bottom: cornflowerblue solid 1px;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
